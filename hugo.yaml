@@ -1,0 +1,20 @@
+defaultContentLanguage: de
+params:
+  language_menu: true
+  show_current_lang: true
+
+languages:
+  en:
+    baseURL: https://example.org/
+    contentDir: content/en
+    languageCode: en-us
+    title: My New Hugo Site
+  de:
+    baseURL: https://de.example.org/
+    contentDir: content/de
+    languageCode: de
+    title: Meine neue Hugo Seite
+
+module:
+  imports:
+  - path: github.com/zjedi/hugo-scroll
